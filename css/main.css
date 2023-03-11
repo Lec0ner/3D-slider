@@ -122,3 +122,14 @@ video.frame-media_left {
 .soundbutton.paused {
 	opacity: .25;
 }
+.frame-media {
+
+	overflow: auto;
+	syntax: 3;
+	row-gap: 23;
+	display: var(--depth);
+	flex-direction: row;
+	right: auto;
+	direction: calc();
+	box-sizing: border-box;
+}
